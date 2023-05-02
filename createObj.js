@@ -28,6 +28,7 @@ function criaObjeto(Municipios, linha){
                 "Previdência Social": 0,
                 "Saúde": 0,
                 "Educação": 0},
+<<<<<<< HEAD
 
             'Inscrição de Restos a Pagar Processados':{
                 "Segurança Pública": 0,
@@ -49,9 +50,18 @@ function criaObjeto(Municipios, linha){
             'Seguridade Social': 0,
         
         }
+=======
+            
+            'Seguridade Social': 0,
+
+            'Inscrição de Restos a Pagar Não Processados': 0}
+>>>>>>> c73c878d8528b562d4b7bcf506cad3e84d28168d
     }
 
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> c73c878d8528b562d4b7bcf506cad3e84d28168d
 export default criaObjeto;

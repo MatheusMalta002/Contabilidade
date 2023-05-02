@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 
 
 function filtroDados(linha, Municipios, coluna, Estados, arrayEstados, despesasEmpenhadasUF){
+=======
+function filtroDados(linha, Municipios, coluna){
+>>>>>>> c73c878d8528b562d4b7bcf506cad3e84d28168d
 
     const arrayS = linha['Instituicao'].split(' - ')
 
@@ -10,6 +14,7 @@ function filtroDados(linha, Municipios, coluna, Estados, arrayEstados, despesasE
 
     const funcao = Number(arraySeparador[0])
 
+<<<<<<< HEAD
     const UF = linha['UF']
 
     UF in Estados ? null : Estados[UF] = []
@@ -114,6 +119,14 @@ function filtroDados(linha, Municipios, coluna, Estados, arrayEstados, despesasE
         }
 
         if(coluna == 'Inscrição de Restos a Pagar Processados' ||  coluna == 'Inscrição de Restos a Pagar Não Processados'){
+=======
+
+    if(arraySeparador.length == 1){
+            null;                  //tratar quando não tiver nenhum numero
+    }else{
+
+        if(coluna == 'Despesas Empenhadas' || coluna == 'Despesas Liquidadas' || coluna == 'Despesas Pagas'){
+>>>>>>> c73c878d8528b562d4b7bcf506cad3e84d28168d
 
             //SEGURANÇA PÚBLICA
             if(funcao == 6){
@@ -133,6 +146,10 @@ function filtroDados(linha, Municipios, coluna, Estados, arrayEstados, despesasE
                 const valorFinal = valorSoma.replace(',', ".")
 
                 Municipios[cidade][coluna]["Assistência Social"] += Number(valorFinal)
+<<<<<<< HEAD
+=======
+                Municipios[cidade]['Seguridade Social'] += Number(valorFinal)
+>>>>>>> c73c878d8528b562d4b7bcf506cad3e84d28168d
             }
 
             //PREVIDÊNCIA SOCIAL
@@ -142,6 +159,10 @@ function filtroDados(linha, Municipios, coluna, Estados, arrayEstados, despesasE
                 const valorFinal = valorSoma.replace(',', ".")
 
                 Municipios[cidade][coluna]["Previdência Social"] += Number(valorFinal)
+<<<<<<< HEAD
+=======
+                Municipios[cidade]["Seguridade Social"] += Number(valorFinal)
+>>>>>>> c73c878d8528b562d4b7bcf506cad3e84d28168d
             }
 
             // SAÚDE
@@ -152,6 +173,10 @@ function filtroDados(linha, Municipios, coluna, Estados, arrayEstados, despesasE
                 const valorFinal = valorSoma.replace(',', ".")
 
                 Municipios[cidade][coluna]["Saúde"] += Number(valorFinal)
+<<<<<<< HEAD
+=======
+                Municipios[cidade]["Seguridade Social"] += Number(valorFinal)
+>>>>>>> c73c878d8528b562d4b7bcf506cad3e84d28168d
             }
 
             //EDUCAÇÃO
@@ -168,5 +193,9 @@ function filtroDados(linha, Municipios, coluna, Estados, arrayEstados, despesasE
     }
 
 }
+<<<<<<< HEAD
+=======
+    
+>>>>>>> c73c878d8528b562d4b7bcf506cad3e84d28168d
 
 export default filtroDados;
