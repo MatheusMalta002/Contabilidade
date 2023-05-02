@@ -180,18 +180,19 @@ function dataTable(cidade){
 
 }); 
 
+
 }
 
 
 function somaArray(obj, estado){
 
-    let resultado = 0
+    let resultad = 0
   
     obj[estado].map((el)=>{
-      resultado +=Number(el)
+      resultad +=Number(el)
     })
   
-    return resultado
+    return resultad
   }
 
 
