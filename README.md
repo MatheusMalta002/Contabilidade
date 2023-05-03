@@ -12,7 +12,7 @@ LIQUIDADAS, DESPESAS PAGAS, RESTOS A PAGAR NÃO PROCESSADOS e RESTOS
 A PAGAR PROCESSADOS.
 
 ## Intruções de uso📖
-Para utilizar, basta clicar no link abaixo e irá levar para o site, basta selecionar o estado e o município para fazer a bsuca e os resultados irão ser apresentados, segue o link:
+Para utilizar, basta clicar no link abaixo e irá levar para o site, basta selecionar o estado e o município para fazer a busca e os resultados irão ser apresentados, segue o link:
 
 [link do site](https://matheusmalta002.github.io/c/)
 ## ferramentais utilizados💻🛠️
@@ -23,6 +23,6 @@ Para utilizar, basta clicar no link abaixo e irá levar para o site, basta selec
 ## Grupo👷
 - Matheus Fillipe Silva Malta - mfsm
 - Arthur Conegundes Maia de Sa Pessoa - acmsp
-- Ian Felipe Santos de Alcantra - ifsa
-- Evandrom de Souza Santos Junior - essj2
-- Rodrigo Rodrigo Barros de Castro - rbc6
+- Ian Felipe Santos de Alcantara - ifsa
+- Evandro de Souza Santos Junior - essj2
+- Rodrigo Barros de Castro - rbc6
