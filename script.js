@@ -36,6 +36,8 @@ function run(){
       write(chunk, encoding, next) {
 
         const stringifyer = chunk.toString()
+
+        
         const rowData = JSON.parse(stringifyer)
 
 

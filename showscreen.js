@@ -1,3 +1,5 @@
+
+
 function dataTable(cidade){
 
     fetch('./arquivos_json/municipios.json')
@@ -236,6 +238,12 @@ function dataCity(estadoSelecionado){
 
             city.removeChild(city.firstChild);
         }
+
+        const firstElement = document.createElement("option")
+        firstElement.innerHTML='Selecione um Município'
+        firstElement.disabled=true
+        firstElement.selected=true
+        city.appendChild(firstElement)
 
         arrayEstado.map((el)=>{
             const newElement = document.createElement("option")
