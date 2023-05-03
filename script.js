@@ -16,7 +16,7 @@ function run(){
     const despesasEmpenhadasUF = {}
 
 
-    const readableStreamFile = fs.createReadStream('teste.csv')
+    const readableStreamFile = fs.createReadStream('paia.csv')
     const transformToObject = csv({ separator: ',' })
 
     const transformToString = new Transform({
@@ -58,19 +58,19 @@ function run(){
       .pipe(writableStreamFile)
       .on('close', () => {console.log('Finalizou', Date())
 
-      console.log(Municipios)
+      // console.log(Municipios)
 
-      // const  despesasJSON = JSON.stringify(despesasEmpenhadasUF)
+      const  municpiosJSON = JSON.stringify(Municipios)
 
       // fs.writeFile('arrayEstados.json', arrayEstadosJSON, err => {
       //       if (err) throw err;
       //       console.log('JSON saved to file'); 
       //   });
 
-      // fs.writeFile('filtroDespesas.json', despesasJSON, err => {
-      //   if (err) throw err;
-      //   console.log('JSON saved to file'); 
-    // });
+      fs.writeFile('./arquivos_json/municipios.json', municpiosJSON, err => {
+        if (err) throw err;
+        console.log('JSON saved to file'); 
+    });
 
     }) 
 
