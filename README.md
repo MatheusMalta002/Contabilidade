@@ -14,7 +14,7 @@ A PAGAR PROCESSADOS.
 ## Intruções de uso📖
 Para utilizar, basta clicar no link abaixo e irá levar para o site, basta selecionar o estado e o município para fazer a busca e os resultados irão ser apresentados, segue o link:
 
-[link do site](https://matheusmalta002.github.io/Contabilidade/)
+[link do site](https://matheusmalta002.github.io/accounting-project/)
 ## ferramentais utilizados💻🛠️
 - [html](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [css](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
